@@ -4,8 +4,8 @@ pipeline {
     
     environment{
         dockerImage=''
-        registry ='sujsinha/dockerfile1'
-        registryCredential = 'dockerhub_id'
+        registry ='sujay07/devopsclass'
+        registryCredential = 'Docker'
     }
     
     stages {
